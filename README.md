@@ -18,9 +18,13 @@ BERT-Emo: Mining Dual Emotion for Fake News Detection (WWW 2021)
 **Requirements**
 
 Python 3.6
+
 PyTorch > 1.0
+
 Pandas
+
 Numpy
+
 Tqdm
 
 **run**
@@ -37,5 +41,13 @@ In the first place in the new data set https://github.com/junyachen/Data-example
 
 
 3、the result
+
+3.1 gossipcop_v3-1_style_based_fake data set input into the model results
+
+![image](https://github.com/ml-master/ENDEF-framework/assets/139029753/289c0c54-b721-4316-8809-cb0bbc6b3cf0)
+
+3.2 gossipcop_v3-5_style_based_legitimate data set input into the model results
+
+![image](https://github.com/ml-master/ENDEF-framework/assets/139029753/2e4d37b3-ff49-41f2-baf7-66c654cee892)
 
 
