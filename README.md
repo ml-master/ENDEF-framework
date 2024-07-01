@@ -15,7 +15,7 @@ BERT: Bert: Pre-training of Deep Bidirectional Transformers for Language Underst
 MDFEND: MDFEND: Multi-domain Fake News Detection (CIKM 2021)
 BERT-Emo: Mining Dual Emotion for Fake News Detection (WWW 2021)
 
-**Requirements**
+Requirements
 
 Python 3.6
 
@@ -40,7 +40,7 @@ python main.py --gpu 1 --lr 0.0001 --model_name bigru
 In the first place in the new data set https://github.com/junyachen/Data-examples?tab=readme-ov-file download links data set
 
 
-3、the result
+**3、the result**
 
 3.1 gossipcop_v3-1_style_based_fake data set input into the model results
 
@@ -49,5 +49,16 @@ In the first place in the new data set https://github.com/junyachen/Data-example
 3.2 gossipcop_v3-5_style_based_legitimate data set input into the model results
 
 ![image](https://github.com/ml-master/ENDEF-framework/assets/139029753/2e4d37b3-ff49-41f2-baf7-66c654cee892)
+
+
+4、Ablation experiment
+
+4.1 The results of the gossipcop dataset were not used under the proposed framework
+
+![image](https://github.com/ml-master/ENDEF-framework/assets/139029753/cbb6f33e-ee6d-4843-bb00-620559c046f1)
+
+4.2 The results of gossipcop data set use under the proposed framework
+
+![image](https://github.com/ml-master/ENDEF-framework/assets/139029753/23ec553c-feea-4dde-b126-2d2a468c2573)
 
 
